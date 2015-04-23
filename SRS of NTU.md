@@ -96,22 +96,61 @@ German, Italian, Spanish, Turkish, Danish, Portuguese, Dutch and Greek|
 |**Use-Case name**| **Rate Screen**                     | 
 |---------|:-------------------------------------:|
 |**Stakeholder**       | Any crew member |
-| **Brief Description**        |**And**                                |
-| **Pre-Conditions** ||
-| **Main Success Scenario**   |the user type his/her                  |
-| **ALternative Flow**        |  valid username                       |
-| **Post Condition**        |  valid password                       |
+| **Brief Description**        |When user starts the app, he/she will see the full screen banner with some options |
+| **Pre-Conditions** |The user has tapped on the icon of this application at his/her device and the application is active now|
+| **Main Success Scenario**   | **Option at rate screen would be** |
+| | 1.	Do not ask again |
+| | 2.	Rate BAHAUS NAUTIC |
+| | 3.	Proceed to Bahaus Nautic |
+| **ALternative Flow**        |  1a.  Tap on this option will close the banner and rate screen will not appear again|
+| | 2a. Tap on this option will direct the user to store rating screen|
+| | 3a. Tap on this option will close the banner. But whenever user will come again to the app the rate screen will be shown again|
+| | At any time: click on back arrow at top will direct the user to previous page|
+| **Post Condition**        |  The user is on the home screen of app  |
 
 
 #### (V D) Cashbox
-|**Use-Case name**| **Cash box**                     | 
+The main purpose of this module is to create and maintain the common expense in during marina tour such as food, drinks, electricity usage .etc.
+
+|**Use-Case name**| **Cashbox Creation**                     | 
 |---------|:-------------------------------------:|
-|**Stakeholder**       | Any crew member |
-| **Brief Description**        |**And**                                |
-| **Pre-Conditions** ||
-| **Main Success Scenario**   |the user type his/her                  |
-| **ALternative Flow**        |  valid username                       |
-| **Post Condition**        |  valid password                       |
+|**Stakeholder**       | Skipper |
+| **Brief Description**        | the user will able to create their cashbox and in a cashbox user will able to add amount of cashbox, add participants and a skipper. |
+| **Pre-Conditions** | The user is on the Cashbox module |
+| **Main Success Scenario**   | **For creating cashbox user will perform following actions:** |
+| | 1.	Enter cashbox name |
+| | 2.	Enter amount |
+| | 3.	Select type of currency |
+| | 4.	Add at least one participant or more if he wants ( There is no limitation ) |
+| | 5.	Enter Skipper name ( Not Mandatory) |
+| | 6.	After the above actions, user will tap on the “done” button |
+| **ALternative Flow**        |  Application will show error message against each invalid action i.e. |
+| | 4a. User try to add participant without their name |
+| | 6a. User try to create cashbox without any participant name |
+| | 6b. User try to create cashbox without entering the cashbox name |
+| | 6c. User try create cashbox with name of numeric string. |
+| | At any time: |
+| | click on back arrow at top will direct the user to previous page|
+| **Post Condition**        |  The application will prompt the user for confirmation. 
+The information in the confirmation popup should be following: |
+| | 1.	Cashbox name |
+| | 2.	All participant with their name |
+| | 3.	Skipper name, if added otherwise the skipper label should not be displayed |
+
+
+|**Use-Case name**| **Cashbox Listing**                     | 
+|---------|:-------------------------------------:|
+|**Stakeholder**       | Skipper |
+| **Brief Description**        | All the cashbox which user has made should be enlisted here |
+| **Pre-Conditions** | The user is on the Cashbox module |
+| **Main Success Scenario**   | 1.	Each cashbox name is enlisted with status (Active/Inactive) |
+| | 2.	The cashbox names are in descending order |
+| | 3.	Upon tapping on cashbox name application redirects the user to its detail page |
+| **ALternative Flow**        | 7a. At any time only one cashbox will be in “Active” state. It means all others would be in “Inactive” or “Completed” state |
+| | At any time: |
+| | click on back arrow at top will direct the user to previous page |
+| **Post Condition**        |  The user is on the detail page of cashbox |
+
 
 
 #### (VI) Database Analysis
