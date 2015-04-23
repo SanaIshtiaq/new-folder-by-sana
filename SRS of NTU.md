@@ -21,8 +21,8 @@
       * [**5.2	Dictionary**](#v-b-dictionary)
       * [**5.3	Rate Screen**](#v-c-rate-screen)
       * [**5.4	Cashbox**](#v-d-cashbox)
-      * [**6.0	Reference Screens**](#v-reference-screens)
-      * [**7.0	Database Analysis**](#v-database-analysis)
+      * [**6.0	Reference Screens**](#vi-reference-screens)
+      * [**7.0	Database Analysis**](#vii-database-analysis)
       
 
 
@@ -152,9 +152,9 @@ Following screenshots are attached, illustrating the functional modules listed a
 
 ![enter image description here]( https://raw.githubusercontent.com/SanaIshtiaq/new-folder-by-sana/master/diagrams/123.png)
 <br/>
-![enter image description here]( https://raw.github.com/SanaIshtiaq/new-folder-by-sana/blob/master/diagrams/456.png)
+![enter image description here](https://raw.githubusercontent.com/SanaIshtiaq/new-folder-by-sana/master/diagrams/456.png)
 <br/>
-![enter image description here]( https://raw.github.com/SanaIshtiaq/new-folder-by-sana/blob/master/diagrams/789.png)
+![enter image description here]( https://raw.githubusercontent.com/SanaIshtiaq/new-folder-by-sana/master/diagrams/789.png)
 
 #### (V A) Entity Relationship Diagram
 For the entity relationship diagram we have used the Chen one model as a standard. And we have used MS Visio to design that.  <br/>
