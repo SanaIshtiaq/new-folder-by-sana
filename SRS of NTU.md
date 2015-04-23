@@ -47,7 +47,8 @@ This is a list of Modules shared by the client on email/call.
 
 |**Module Name**| **Comments**                     | 
 |---------------|:-------------------------------------: |
-|Internationalization       | Application should be supported in 8 different languages .i.e German, Italian, Spanish, Turkish, Danish, Portuguese, Dutch and Greek |
+|Internationalization       | Application should be supported in 8 different languages |
+| | .i.e German, Italian, Spanish, Turkish, Danish, Portuguese, Dutch and Greek |
 |||
 |Dictionary       |Categories, Sub-Categories and Detail Page                  | 
 |||
