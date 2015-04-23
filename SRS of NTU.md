@@ -22,7 +22,9 @@
       * [**5.3	Rate Screen**](#v-c-rate-screen)
       * [**5.4	Cashbox**](#v-d-cashbox)
       * [**6.0	Reference Screens**](#vi-reference-screens)
-      * [**7.0	Database Analysis**](#vii-database-analysis)
+      * [**7.0	UseCase Diagram**](#vii-usecase-diagram)
+      * [**8.0	Entity Relationship Diagram**](#vii-entity-relationship-diagram)
+      * [**9.0	Database Analysis**](#ix-database-analysis)
       
 
 
@@ -156,13 +158,10 @@ Following screenshots are attached, illustrating the functional modules listed a
 <br/>
 ![enter image description here]( https://raw.githubusercontent.com/SanaIshtiaq/new-folder-by-sana/master/diagrams/789.png)
 
-#### (V A) Entity Relationship Diagram
+#### (VII) UseCase Diagram
+
+#### (VIII) Entity Relationship Diagram
 For the entity relationship diagram we have used the Chen one model as a standard. And we have used MS Visio to design that.  <br/>
 It is the logical flow of our system just at the abstract level.  <br/>
- 
-![enter image description here](https://raw.github.com/RazaChohan/Experimentation-Repo/sanaNewBranch/diagrams/Extended-ERD.png)
 
-Important point about this ERD is that there is a week entity “OrderLineItem” that’s why it has marked as double lined entity.   <br/>
-
-
-#### (V B) Database Schema
+#### (IX) Database Schema
