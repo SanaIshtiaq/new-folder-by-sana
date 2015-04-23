@@ -12,7 +12,6 @@ Date 11-september-2014
 | 1.0 |	01-04-2015 |	The Requirement and Specification document for NTU	| Nautic Translate Update	| Coeus |
 | 1.1 |	08-04-2015 |	SRS after analysis for NTU	| Nautic Translate Update	| Coeus |
 
-
 
 
 ####Table of Contents
@@ -40,7 +39,7 @@ From Business point of view this system will help to improve revenue of the comp
 #### (III) Hardware or Software Requirements
 The application should work on the following hardware and software.
 * iPhone 6 + IOS 8
-* Android XHDPI Resolution with latest OS
+* Android XHDPI Resolution with latest OS.
 #### (IV) Client Requirements
 This is a list of Modules shared by the client on email/call.
 
