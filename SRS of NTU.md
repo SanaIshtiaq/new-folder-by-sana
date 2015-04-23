@@ -14,20 +14,7 @@ Date 11-september-2014
 
 
 
-1. Introduction	3
-2. Business Overview	3
-3. Hardware/Software Reuirements	3
-4. Client Requirements	3
-5. System Specifications	28
-5.1 Internationalization	28
-5.2 Dictionary	29
-5.3 Rate Screen	30
-5.4 Cashbox	31
-6. Reference Screens	41
-7. Database Analysis	54
 
- 
- 
 ####Table of Contents
       * [**1.0	Introduction**](#i-introduction)
       * [**2.0	Business Overview**](#ii-business-overview)
@@ -46,8 +33,8 @@ Date 11-september-2014
 
 
 #### (I) Introduction
- This document contains the system requirements for ìNautic Translate Applicationî. These requirements have been derived from several sources, including meetings with client, demos given to the client by Coeus Solutions .etc. 
-ìNautic Translate Applicationî is a mobile application, it is intended to be used by the skipper of ship to take the advantage from a consolidated dictionary for nautical terms. Translations are available in German, Italian, Spanish, Turkish, Danish, Portuguese, Dutch and Greek for more than 1800 nautical terms of different categories.  
+ This document contains the system requirements for ‚ÄúNautic Translate Application‚Äù. These requirements have been derived from several sources, including meetings with client, demos given to the client by Coeus Solutions .etc. 
+‚ÄúNautic Translate Application‚Äù is a mobile application, it is intended to be used by the skipper of ship to take the advantage from a consolidated dictionary for nautical terms. Translations are available in German, Italian, Spanish, Turkish, Danish, Portuguese, Dutch and Greek for more than 1800 nautical terms of different categories.  
 #### (II) Business Overview
 From Business point of view this system will help to improve revenue of the company as skipper would be able to interact with different customers of different cultures and languages through fully consolidate dictionary. And also the functionality to manage the crew of the ship.
 #### (III) Hardware or Software Requirements
@@ -155,7 +142,7 @@ so that **I can generate an accurate order for the customer to avoid trouble in 
 
 #### (VI) Database Analysis
 The database system which we would use most preferably is the **MySQL**.  <br/>
-ìMySQLî have many good reasons to use in this project.  <br/> 
+‚ÄúMySQL‚Äù have many good reasons to use in this project.  <br/> 
 * Tested with a broad range of different compilers.
 * Works on many different platforms.
 * Provides transactional and nontransactional storage engines.
@@ -170,7 +157,7 @@ It is the logical flow of our system just at the abstract level.  <br/>
  
 ![enter image description here](https://raw.github.com/RazaChohan/Experimentation-Repo/sanaNewBranch/diagrams/Extended-ERD.png)
 
-Important point about this ERD is that there is a week entity ìOrderLineItemî thatís why it has marked as double lined entity.   <br/>
+Important point about this ERD is that there is a week entity ‚ÄúOrderLineItem‚Äù that‚Äôs why it has marked as double lined entity.   <br/>
 
 
 #### (V B) Database Schema
