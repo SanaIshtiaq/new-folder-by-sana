@@ -1,11 +1,7 @@
 
 ###Nautic Translate Update
-###Requirements Specification Document
-
-Date 11-september-2014
-
-
 ##Project Requirement Document
+
 
 | Version |	Date |	Description |	Name	| Author |
 --------- | ---- | ----------- | ---- | ------ |
