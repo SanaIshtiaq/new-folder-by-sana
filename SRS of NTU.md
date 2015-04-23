@@ -19,7 +19,7 @@ Date 11-september-2014
       * [**1.0	Introduction**](#i-introduction)
       * [**2.0	Business Overview**](#ii-business-overview)
       * [**3.0	Hardware or Software Requirements**](#iii-Hardware-or-Software-Requirements)
-      * [**4.0	Client Requirements**](#iv-Client-Requirements)
+      * [**4.0	Client Requirements**](#iv-client-requirements)
       * [**5.0	System Specifications**](#v-system-specifications)
       * [**5.1	Internationalization**](#v-a-Internationalization)
       * [**5.2	Dictionary**](#v-b-dictionary)
@@ -41,7 +41,6 @@ From Business point of view this system will help to improve revenue of the comp
 The application should work on the following hardware and software.
 * iPhone 6 + IOS 8
 * Android XHDPI Resolution with latest OS.
-xyz 
 #### (IV) Client Requirements
 This is a list of Modules shared by the client on email/call.
 
@@ -49,14 +48,11 @@ This is a list of Modules shared by the client on email/call.
 |---------------|:-------------------------------------: |
 |Internationalization       | Application should be supported in 8 different languages |
 | | .i.e German, Italian, Spanish, Turkish, Danish, Portuguese, Dutch and Greek |
-|||
-|Dictionary       |Categories, Sub-Categories and Detail Page                  | 
-|||
-|Rate Screen       |Rating of application              | 
-|||
-|Cashbox       |Create, Edit, Activate, Deactivate               | 
+|Dictionary | Categories, Sub-Categories and Detail Page | 
+|Rate Screen | Rating of application  | 
+|Cashbox  | Create, Edit, Activate, Deactivate | 
 
-*note : Throughout application should work in Portrait mode.
+* note : Throughout application should work in Portrait mode.
 
 #### (V) System Specifications
 We have divided the Basic Flow of “Nautic Translate Application” in the following modules or specifications, let us evaluate them briefly through the concise description.
