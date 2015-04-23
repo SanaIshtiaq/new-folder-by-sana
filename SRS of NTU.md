@@ -56,100 +56,54 @@ This is a list of Modules shared by the client on email/call.
 *note : Throughout application should work in Portrait mode.
 
 #### (V) System Specifications
-We have divided the Basic Flow of Ready2Serve POS in the following modules or specifications, let us evaluate them briefly through the concise description.
+We have divided the Basic Flow of “Nautic Translate Application” in the following modules or specifications, let us evaluate them briefly through the concise description.
 
 #### (V A) Internationalization
 
-**User story title: sign in**       <br/>
-As a **salesman/admin**        <br/>
-I want to **sign in to the system**        <br/>
-so that **I can use the fully functional system**       <br/>
-
-|**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
-|---------|:------------------------------------- |:------------------------------------|:--------:|
-|1.       | salesman/admin has already an account | **When** the user requests to logIn | |
-|         |**And**                                | **then**                            | |
-|||||
-|2.       |the user type his/her                  | ensure the account is activated     | |
-|         |  valid username                       | And the control goes to main menu   | | 
-|         |  valid password                       |                                     | |
-|         |both consisting of varchar values	     |                                     | |
-|||||
-|3.       |And the user type his/her              | ensure the rejection message is displayed | |
-|         |  valid username                       | And ensure user not logged in             | | 
-|         |  Invalid password                     |  And prompt the user to reEnter.          | |
-|         |both consisting of varchar values	     |                                           | |
-|||||
-|4.       |And the user type his/her              | ensure the rejection message is displayed | |
-|         | Invalid username                      |   And ensure user not logged in           | |
-|         | valid password                        | And prompt the user to reEnter.           | |
-|         |Both consisting of varchar values      |                                           | |	 
-|||||
-|5.       |And the user type his/her              | ensure the rejection message is displayed | |     
-|         | Invalid username                      |  And ensure user not logged in            | |
-|         | Invalid password                      | And prompt the user to reEnter.	          | |
-|         |Both consisting of varchar values      |                                           | | 	 
-
+|**Use-Case name**| **Internationalization**                     | 
+|---------|:-------------------------------------:|
+|**Stakeholder**       | salesman/admin has already an account |
+| **Brief Description**        |**And**                                |
+| **Pre-Conditions** ||
+| **Main Success Scenario**   |the user type his/her                  |
+| **ALternative Flow**        |  valid username                       |
+| **Post Condition**        |  valid password                       |
 
 
 
 #### (V B) Dictionary
-**User story title: Place Order**       <br/>
-As a **salesman**        <br/>
-I want **to place requested order for a customer**        <br/>
-so that **I can generate an order for the customer and system would save this record**       <br/>
+|**Use-Case name**| **Internationalization**                     | 
+|---------|:-------------------------------------:|
+|**Stakeholder**       | salesman/admin has already an account |
+| **Brief Description**        |**And**                                |
+| **Pre-Conditions** ||
+| **Main Success Scenario**   |the user type his/her                  |
+| **ALternative Flow**        |  valid username                       |
+| **Post Condition**        |  valid password                       |
 
-|**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
-|---------|:------------------------------------- |:------------------------------------|:--------:|
-|         |The list of items and deals is displayed on the screen | **When** the user requests to add order line item||
-|         |**AND**                                |**Then**                             | |
-|||||
-|1.       |salesman enters the                    |	ensure that Console clear all its contents | |
-|         | valid index no. of the item/deal      |AND again shows the list of items and deals||
-|         | valid Quantity          |AND shows the current added order line item and prompts to add more  | |
-|||||
-|2.       |salesman enters the                    |ensure the rejection message is displayed | |
-|         | valid index no. of the item/deal      |And prompt to reEnter the values.	         | |
-|         | Invalid Quantity 	                    |                                           | |
-|||||
-|3.       |salesman enters the                    |ensure the rejection message is displayed  | |
-|         | Invalid index no. of the item/deal    |And prompt to reEnter the values.	         | |
-|         | Valid Quantity 	
-|||||
-|4.       |salesman enters the                    |ensure the rejection message is displayed  | | 
-|         |Invalid index no. of the item/deal     |And prompt to reEnter the values.          | |
-|         |Invalid Quantity 	                     |                                           | |
 	
 
 #### (V C) Rate Screen
-**User story title: View Order just requested by the customer**       <br/>
-As a **salesman**        <br/>
-I want to **review the order and make changes in that requested order for a customer**        <br/>
-so that **I can generate an accurate order for the customer to avoid trouble in future.**       <br/>
+|**Use-Case name**| **Internationalization**                     | 
+|---------|:-------------------------------------:|
+|**Stakeholder**       | salesman/admin has already an account |
+| **Brief Description**        |**And**                                |
+| **Pre-Conditions** ||
+| **Main Success Scenario**   |the user type his/her                  |
+| **ALternative Flow**        |  valid username                       |
+| **Post Condition**        |  valid password                       |
 
-|**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
-|---------|:------------------------------------- |:------------------------------------|:--------:|
-|         |The salesman is logged in              |**When** the salesman requests to make changes in the order| |
-|         |**AND**	                          |**Then**                                                   | |
-||||| 
-|1.       |The salesman just added an order line item|	ensure the system shows the proper menu for the different options of changes.	
 
 #### (V D) Cashbox
-**User story title: Change of quantity for an order line item**       <br/>
-As a **salesman**        <br/>
-I want to **make changes in the quantity of an order line item just requested by the customer**        <br/>
-so that **I can generate an accurate order for the customer to avoid trouble in future.**       <br/>
+|**Use-Case name**| **Internationalization**                     | 
+|---------|:-------------------------------------:|
+|**Stakeholder**       | salesman/admin has already an account |
+| **Brief Description**        |**And**                                |
+| **Pre-Conditions** ||
+| **Main Success Scenario**   |the user type his/her                  |
+| **ALternative Flow**        |  valid username                       |
+| **Post Condition**        |  valid password                       |
 
-|**S.No.**| **Pre-requisite**                     | **Acceptance criteria**             |**Status**|
-|---------|:------------------------------------- |:------------------------------------|:--------:|
-||The salesman is on the section to change quantity of an item/deal|**When** the user requests to change the quantity||
-|         |**AND**	                          |**Then**                              | |
-|||||
-|1.       |The salesman enters the valid new quantity  |ensure the updation                | |
-|         |                                            |AND prompt to make further changes | |	
-|||||
-|2.       |The salesman enters the Invalid new quantity|ensure the rejection message is displayed | |
-|         |                                            |AND prompts to reEnter	| |
 
 #### (VI) Database Analysis
 The database system which we would use most preferably is the **MySQL**.  <br/>
