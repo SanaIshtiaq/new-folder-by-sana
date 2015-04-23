@@ -80,11 +80,15 @@ German, Italian, Spanish, Turkish, Danish, Portuguese, Dutch and Greek|
 |**Use-Case name**| **Dictionary**                     | 
 |---------|:-------------------------------------:|
 |**Stakeholder**       | Any crew member |
-| **Brief Description**        |**And**                                |
-| **Pre-Conditions** ||
-| **Main Success Scenario**   |the user type his/her                  |
-| **ALternative Flow**        |  valid username                       |
-| **Post Condition**        |  valid password                       |
+| **Brief Description**        |  User will be able to search for “nautical terms” and their meaning in dictionary in 8 different languages.  |
+| **Pre-Conditions** |The user has tapped on the “Dictionary” from main menu of the application|
+| **Main Success Scenario**   |1.	Dictionary should be in form of categories, sub-categories and detail Page |
+| | 2.	When user will start typing the word to search, the system will show the suggestions|
+| | 3.	User should be able to select any language to translate the word|
+| **ALternative Flow**        |         2a.  When user tap on suggestions to scroll, the keyboard will  disappear|
+| |       At any time: |
+| |             click on back arrow at top will direct the user to previous page|
+| **Post Condition**        |  The user is viewing the results of his/her search                       |
 
 	
 
