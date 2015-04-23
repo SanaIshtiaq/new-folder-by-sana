@@ -150,7 +150,11 @@ The information in the confirmation popup should be following: |
 #### (VI) Reference Screens
 Following screenshots are attached, illustrating the functional modules listed above <br/>
 
-![enter image description here](https://raw.github.com/RazaChohan/Experimentation-Repo/sanaNewBranch/diagrams/Extended-ERD.png)
+![enter image description here]( https://raw.github.com/SanaIshtiaq/new-folder-by-sana/blob/master/diagrams/123.png)
+<br/>
+![enter image description here]( https://raw.github.com/SanaIshtiaq/new-folder-by-sana/blob/master/diagrams/456.png)
+<br/>
+![enter image description here]( https://raw.github.com/SanaIshtiaq/new-folder-by-sana/blob/master/diagrams/789.png)
 
 #### (V A) Entity Relationship Diagram
 For the entity relationship diagram we have used the Chen one model as a standard. And we have used MS Visio to design that.  <br/>
