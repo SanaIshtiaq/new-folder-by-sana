@@ -150,7 +150,7 @@ The information in the confirmation popup should be following: |
 #### (VI) Reference Screens
 Following screenshots are attached, illustrating the functional modules listed above <br/>
 
-![enter image description here]( https://raw.github.com/SanaIshtiaq/new-folder-by-sana/blob/master/diagrams/123.png)
+![enter image description here]( https://raw.githubusercontent.com/SanaIshtiaq/new-folder-by-sana/master/diagrams/123.png)
 <br/>
 ![enter image description here]( https://raw.github.com/SanaIshtiaq/new-folder-by-sana/blob/master/diagrams/456.png)
 <br/>
