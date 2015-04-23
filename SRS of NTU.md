@@ -43,6 +43,17 @@ The application should work on the following hardware and software.
 * Android XHDPI Resolution with latest OS.
 #### (IV) Client Requirements
 This is a list of Modules shared by the client on email/call.
+|**Module Name**| **Comments**                     | 
+|---------------|:------------------------------------- |
+|Internationalization       | Application should be supported in 8 different languages .i.e German, Italian, Spanish, Turkish, Danish, Portuguese, Dutch and Greek |
+|||
+|Dictionary       |Categories, Sub-Categories and Detail Page                  | 
+|||
+|Rate Screen       |Rating of application              | 
+|||
+|Cashbox       |Create, Edit, Activate, Deactivate               | 
+
+*note : Throughout application should work in Portrait mode.
 
 #### (V) System Specifications
 We have divided the Basic Flow of Ready2Serve POS in the following modules or specifications, let us evaluate them briefly through the concise description.
