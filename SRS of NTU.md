@@ -147,8 +147,10 @@ The information in the confirmation popup should be following: |
 
 
 
-#### (VI) UseCase Diagram
+#### (VI) Reference Screens
+Following screenshots are attached, illustrating the functional modules listed above <br/>
 
+![enter image description here](https://raw.github.com/RazaChohan/Experimentation-Repo/sanaNewBranch/diagrams/Extended-ERD.png)
 
 #### (V A) Entity Relationship Diagram
 For the entity relationship diagram we have used the Chen one model as a standard. And we have used MS Visio to design that.  <br/>
