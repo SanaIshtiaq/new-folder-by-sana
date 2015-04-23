@@ -41,6 +41,7 @@ From Business point of view this system will help to improve revenue of the comp
 The application should work on the following hardware and software.
 * iPhone 6 + IOS 8
 * Android XHDPI Resolution with latest OS.
+xyz 
 #### (IV) Client Requirements
 This is a list of Modules shared by the client on email/call.
 
@@ -153,16 +154,8 @@ The information in the confirmation popup should be following: |
 
 
 
-#### (VI) Database Analysis
-The database system which we would use most preferably is the **MySQL**.  <br/>
-“MySQL” have many good reasons to use in this project.  <br/> 
-* Tested with a broad range of different compilers.
-* Works on many different platforms.
-* Provides transactional and nontransactional storage engines.
-* Uses multi-layered server design with independent modules.
-* Uses a very fast thread-based memory allocation system.
-* Executes very fast joins using an optimized nested-loop join.
-* Implements SQL functions using a highly optimized class library that should be as fast as possible.    <br/>
+#### (VI) UseCase Diagram
+
 
 #### (V A) Entity Relationship Diagram
 For the entity relationship diagram we have used the Chen one model as a standard. And we have used MS Visio to design that.  <br/>
@@ -174,16 +167,3 @@ Important point about this ERD is that there is a week entity “OrderLineItem�
 
 
 #### (V B) Database Schema
- 
-Here is given all the tables which we will generate through a DBscript to store information about all related contents of the system.  <br/>
-That script would be used by anyone to generate data base and its tables.  <br/> 
-
- ![enter image description here](https://raw.github.com/RazaChohan/Experimentation-Repo/sanaNewBranch/diagrams/Database%20Schema%20Diagram.png)
-
-As we can see that there would be five tables in the DB schema of Ready2Serve POS.  <br/>
-
-**Note:**
-* In **person.person_type** the default values stored are **admin** and **sale**
-* In **product.product_type** the default values stored are **deal** and **item**
-* Default username for salesman is **sales_man** and for admin it is **admin_man**
-* Default password for salesman is **sales123** and for admin it is **admin123**
