@@ -44,7 +44,7 @@ The application should work on the following hardware and software.
 #### (IV) Client Requirements
 This is a list of Modules shared by the client on email/call.
 |**Module Name**| **Comments**                     | 
-|---------------|:------------------------------------- |
+|---------------|:-------------------------------------: |
 |Internationalization       | Application should be supported in 8 different languages .i.e German, Italian, Spanish, Turkish, Danish, Portuguese, Dutch and Greek |
 |||
 |Dictionary       |Categories, Sub-Categories and Detail Page                  | 
@@ -62,19 +62,23 @@ We have divided the Basic Flow of “Nautic Translate Application” in the foll
 
 |**Use-Case name**| **Internationalization**                     | 
 |---------|:-------------------------------------:|
-|**Stakeholder**       | salesman/admin has already an account |
-| **Brief Description**        |**And**                                |
-| **Pre-Conditions** ||
-| **Main Success Scenario**   |the user type his/her                  |
-| **ALternative Flow**        |  valid username                       |
-| **Post Condition**        |  valid password                       |
+|**Stakeholder**       | Any crew member |
+| **Brief Description**        |The application will support the following language. <br/>
+German, Italian, Spanish, Turkish, Danish, Portuguese, Dutch and Greek|
+| **Pre-Conditions** |The user has tapped on the icon of this application at his/her device and the application is active now|
+| **Main Success Scenario**   |1.	By default application should start with the language which user has set in device setting. <br/>
+2.	User will able to change the application language through Language in main menu. <br/>
+3.	In case of Android: when user selects the language, then application should re launch automatically and reverted to the language which user has selected.|
+| **ALternative Flow**        |  At any time: <br/>
+             click on back arrow at device will stop the further processing of system and will close the application|
+| **Post Condition**        |  The user is on the home page of application                      |
 
 
 
 #### (V B) Dictionary
-|**Use-Case name**| **Internationalization**                     | 
+|**Use-Case name**| **Dictionary**                     | 
 |---------|:-------------------------------------:|
-|**Stakeholder**       | salesman/admin has already an account |
+|**Stakeholder**       | Any crew member |
 | **Brief Description**        |**And**                                |
 | **Pre-Conditions** ||
 | **Main Success Scenario**   |the user type his/her                  |
@@ -84,9 +88,9 @@ We have divided the Basic Flow of “Nautic Translate Application” in the foll
 	
 
 #### (V C) Rate Screen
-|**Use-Case name**| **Internationalization**                     | 
+|**Use-Case name**| **Rate Screen**                     | 
 |---------|:-------------------------------------:|
-|**Stakeholder**       | salesman/admin has already an account |
+|**Stakeholder**       | Any crew member |
 | **Brief Description**        |**And**                                |
 | **Pre-Conditions** ||
 | **Main Success Scenario**   |the user type his/her                  |
@@ -95,9 +99,9 @@ We have divided the Basic Flow of “Nautic Translate Application” in the foll
 
 
 #### (V D) Cashbox
-|**Use-Case name**| **Internationalization**                     | 
+|**Use-Case name**| **Cash box**                     | 
 |---------|:-------------------------------------:|
-|**Stakeholder**       | salesman/admin has already an account |
+|**Stakeholder**       | Any crew member |
 | **Brief Description**        |**And**                                |
 | **Pre-Conditions** ||
 | **Main Success Scenario**   |the user type his/her                  |
