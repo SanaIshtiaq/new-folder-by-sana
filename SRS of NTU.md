@@ -60,8 +60,7 @@ We have divided the Basic Flow of “Nautic Translate Application” in the foll
 |**Use-Case name**| **Internationalization**                     | 
 |---------|:-------------------------------------:|
 |**Stakeholder**       | Any crew member |
-| **Brief Description**        |The application will support the following language. <br/>
-German, Italian, Spanish, Turkish, Danish, Portuguese, Dutch and Greek|
+| **Brief Description**        |The application will support the following language. German, Italian, Spanish, Turkish, Danish, Portuguese, Dutch and Greek|
 | **Pre-Conditions** |The user has tapped on the icon of this application at his/her device and the application is active now|
 | **Main Success Scenario**   |1.	By default application should start with the language which user has set in device setting.|
 | | 2.	User will able to change the application language through Language in main menu.|
