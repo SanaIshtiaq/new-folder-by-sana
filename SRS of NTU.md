@@ -40,6 +40,7 @@ The application should work on the following hardware and software.
 * iPhone 6 + IOS 8
 * Android XHDPI Resolution with latest OS. <br/>
 #### (IV) Client Requirements
+<br/>
 This is a list of Modules shared by the client on email/call.
 
 |**Module Name**| **Comments**                     | 
@@ -58,29 +59,29 @@ We have divided the Basic Flow of “Nautic Translate Application” in the foll
 #### (V A) Internationalization
 
 |**Use-Case name**| **Internationalization**                     | 
-|---------|:-------------------------------------:|
-|**Stakeholder**       | Any crew member |
-| **Brief Description**        |The application will support the following language. German, Italian, Spanish, Turkish, Danish, Portuguese, Dutch and Greek|
-| **Pre-Conditions** |The user has tapped on the icon of this application at his/her device and the application is active now|
-| **Main Success Scenario**   |1.	By default application should start with the language which user has set in device setting.|
+|---------------------------|:-------------------------------------:|
+|**Stakeholder**            | Any crew member |
+| **Brief Description**     |The application will support the following language. German, Italian, Spanish, Turkish, Danish, Portuguese, Dutch and Greek|
+| **Pre-Conditions**        |The user has tapped on the icon of this application at his/her device and the application is active now|
+| **Main Success Scenario** |1.	By default application should start with the language which user has set in device setting.|
 | | 2.	User will able to change the application language through Language in main menu.|
 | | 3.	In case of Android: when user selects the language, then application should re launch automatically and reverted to the language which user has selected.|
-| **ALternative Flow**        |  At any time: |
+| **ALternative Flow**      |  At any time: |
 | | click on back arrow at device will stop the further processing of system and will close the application|
 | **Post Condition**        |  The user is on the home page of application                      |
 
 
 
 #### (V B) Dictionary
-|**Use-Case name**| **Dictionary**                     | 
-|---------|:-------------------------------------:|
-|**Stakeholder**       | Any crew member |
-| **Brief Description**        |  User will be able to search for “nautical terms” and their meaning in dictionary in 8 different languages.  |
-| **Pre-Conditions** |The user has tapped on the “Dictionary” from main menu of the application|
-| **Main Success Scenario**   |1.	Dictionary should be in form of categories, sub-categories and detail Page |
+|**Use-Case name**         | **Dictionary**                     | 
+|--------------------------|:-------------------------------------:|
+|**Stakeholder**           | Any crew member |
+| **Brief Description**    |  User will be able to search for “nautical terms” and their meaning in dictionary in 8 different languages.  |
+| **Pre-Conditions**        |The user has tapped on the “Dictionary” from main menu of the application|
+| **Main Success Scenario** |1.	Dictionary should be in form of categories, sub-categories and detail Page |
 | | 2.	When user will start typing the word to search, the system will show the suggestions|
 | | 3.	User should be able to select any language to translate the word|
-| **ALternative Flow**        |         2a.  When user tap on suggestions to scroll, the keyboard will  disappear|
+| **ALternative Flow**      |         2a.  When user tap on suggestions to scroll, the keyboard will  disappear|
 | |       At any time: |
 | |             click on back arrow at top will direct the user to previous page|
 | **Post Condition**        |  The user is viewing the results of his/her search                       |
@@ -88,16 +89,16 @@ We have divided the Basic Flow of “Nautic Translate Application” in the foll
 	
 
 #### (V C) Rate Screen
-|**Use-Case name**| **Rate Screen**                     | 
-|---------|:-------------------------------------:|
-|**Stakeholder**       | Any crew member |
-| **Brief Description**        |When user starts the app, he/she will see the full screen banner with some options |
+|**Use-Case name**         | **Rate Screen**                     | 
+|------------------------- |:-------------------------------------:|
+|**Stakeholder**           | Any crew member |
+| **Brief Description**    |When user starts the app, he/she will see the full screen banner with some options |
 | **Pre-Conditions** |The user has tapped on the icon of this application at his/her device and the application is active now|
-| **Main Success Scenario**   | **Option at rate screen would be** |
+| **Main Success Scenario** | **Option at rate screen would be** |
 | | 1.	Do not ask again |
 | | 2.	Rate BAHAUS NAUTIC |
 | | 3.	Proceed to Bahaus Nautic |
-| **ALternative Flow**        |  1a.  Tap on this option will close the banner and rate screen will not appear again|
+| **ALternative Flow**      |  1a.  Tap on this option will close the banner and rate screen will not appear again|
 | | 2a. Tap on this option will direct the user to store rating screen|
 | | 3a. Tap on this option will close the banner. But whenever user will come again to the app the rate screen will be shown again|
 | | At any time: click on back arrow at top will direct the user to previous page|
@@ -107,19 +108,19 @@ We have divided the Basic Flow of “Nautic Translate Application” in the foll
 #### (V D) Cashbox
 The main purpose of this module is to create and maintain the common expense in during marina tour such as food, drinks, electricity usage .etc.
 
-|**Use-Case name**| **Cashbox Creation**                     | 
-|---------|:-------------------------------------:|
-|**Stakeholder**       | Skipper |
+|**Use-Case name**           | **Cashbox Creation**                     | 
+|----------------------------|:-------------------------------------:|
+|**Stakeholder**             | Skipper |
 | **Brief Description**        | the user will able to create their cashbox and in a cashbox user will able to add amount of cashbox, add participants and a skipper. |
-| **Pre-Conditions** | The user is on the Cashbox module |
-| **Main Success Scenario**   | **For creating cashbox user will perform following actions:** |
+| **Pre-Conditions**         | The user is on the Cashbox module |
+| **Main Success Scenario**  | **For creating cashbox user will perform following actions:** |
 | | 1.	Enter cashbox name |
 | | 2.	Enter amount |
 | | 3.	Select type of currency |
 | | 4.	Add at least one participant or more if he wants ( There is no limitation ) |
 | | 5.	Enter Skipper name ( Not Mandatory) |
 | | 6.	After the above actions, user will tap on the “done” button |
-| **ALternative Flow**        |  Application will show error message against each invalid action i.e. |
+| **ALternative Flow**       |  Application will show error message against each invalid action i.e. |
 | | 4a. User try to add participant without their name |
 | | 6a. User try to create cashbox without any participant name |
 | | 6b. User try to create cashbox without entering the cashbox name |
@@ -133,10 +134,10 @@ The information in the confirmation popup should be following: |
 | | 3.	Skipper name, if added otherwise the skipper label should not be displayed |
 
 
-|**Use-Case name**| **Cashbox Listing**                     | 
-|---------|:-------------------------------------:|
-|**Stakeholder**       | Skipper |
-| **Brief Description**        | All the cashbox which user has made should be enlisted here |
+|**Use-Case name**            | **Cashbox Listing**                     | 
+|-----------------------------|:-------------------------------------:|
+|**Stakeholder**              | Skipper |
+| **Brief Description**       | All the cashbox which user has made should be enlisted here |
 | **Pre-Conditions** | The user is on the Cashbox module |
 | **Main Success Scenario**   | 1.	Each cashbox name is enlisted with status (Active/Inactive) |
 | | 2.	The cashbox names are in descending order |
@@ -144,7 +145,7 @@ The information in the confirmation popup should be following: |
 | **ALternative Flow**        | 7a. At any time only one cashbox will be in “Active” state. It means all others would be in “Inactive” or “Completed” state |
 | | At any time: |
 | | click on back arrow at top will direct the user to previous page |
-| **Post Condition**        |  The user is on the detail page of cashbox |
+| **Post Condition**          |  The user is on the detail page of cashbox |
 
 
 
