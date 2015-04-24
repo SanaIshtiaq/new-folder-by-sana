@@ -38,7 +38,7 @@ From Business point of view this system will help to improve revenue of the comp
 #### (III) Hardware or Software Requirements
 The application should work on the following hardware and software.
 * iPhone 6 + IOS 8
-* Android XHDPI Resolution with latest OS.
+* Android XHDPI Resolution with latest OS. <br/>
 #### (IV) Client Requirements
 This is a list of Modules shared by the client on email/call.
 
