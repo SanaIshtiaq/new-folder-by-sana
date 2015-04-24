@@ -66,8 +66,7 @@ We have divided the Basic Flow of “Nautic Translate Application” in the foll
 | **Main Success Scenario** |1.	By default application should start with the language which user has set in device setting.|
 | | 2.	User will able to change the application language through Language in main menu.|
 | | 3.	In case of Android: when user selects the language, then application should re launch automatically and reverted to the language which user has selected.|
-| **ALternative Flow**      |  At any time: |
-| | click on back arrow at device will stop the further processing of system and will close the application|
+| **Alternative Flow**      |  At any time: click on back arrow at device will stop the further processing of system and will close the application|
 | **Post Condition**        |  The user is on the home page of application                      |
 
 
@@ -81,9 +80,8 @@ We have divided the Basic Flow of “Nautic Translate Application” in the foll
 | **Main Success Scenario** |1.	Dictionary should be in form of categories, sub-categories and detail Page |
 | | 2.	When user will start typing the word to search, the system will show the suggestions|
 | | 3.	User should be able to select any language to translate the word|
-| **ALternative Flow**      |         2a.  When user tap on suggestions to scroll, the keyboard will  disappear|
-| |       At any time: |
-| |             click on back arrow at top will direct the user to previous page|
+| **Alternative Flow**      | 2a.  When user tap on suggestions to scroll, the keyboard will  disappear|
+| |       At any time: click on back arrow at top will direct the user to previous page|
 | **Post Condition**        |  The user is viewing the results of his/her search                       |
 
 	
@@ -98,7 +96,7 @@ We have divided the Basic Flow of “Nautic Translate Application” in the foll
 | | 1.	Do not ask again |
 | | 2.	Rate BAHAUS NAUTIC |
 | | 3.	Proceed to Bahaus Nautic |
-| **ALternative Flow**      |  1a.  Tap on this option will close the banner and rate screen will not appear again|
+| **Alternative Flow**      |  1a.  Tap on this option will close the banner and rate screen will not appear again|
 | | 2a. Tap on this option will direct the user to store rating screen|
 | | 3a. Tap on this option will close the banner. But whenever user will come again to the app the rate screen will be shown again|
 | | At any time: click on back arrow at top will direct the user to previous page|
@@ -120,13 +118,12 @@ The main purpose of this module is to create and maintain the common expense in 
 | | 4.	Add at least one participant or more if he wants ( There is no limitation ) |
 | | 5.	Enter Skipper name ( Not Mandatory) |
 | | 6.	After the above actions, user will tap on the “done” button |
-| **ALternative Flow**       |  Application will show error message against each invalid action i.e. |
+| **Alternative Flow**       |  Application will show error message against each invalid action i.e. |
 | | 4a. User try to add participant without their name |
 | | 6a. User try to create cashbox without any participant name |
 | | 6b. User try to create cashbox without entering the cashbox name |
 | | 6c. User try create cashbox with name of numeric string. |
-| | At any time: |
-| | click on back arrow at top will direct the user to previous page|
+| | At any time: click on back arrow at top will direct the user to previous page |
 | **Post Condition**        |  The application will prompt the user for confirmation. The information in the confirmation popup should be following: |
 | | 1.	Cashbox name |
 | | 2.	All participant with their name |
@@ -141,9 +138,8 @@ The main purpose of this module is to create and maintain the common expense in 
 | **Main Success Scenario**   | 1.	Each cashbox name is enlisted with status (Active/Inactive) |
 | | 2.	The cashbox names are in descending order |
 | | 3.	Upon tapping on cashbox name application redirects the user to its detail page |
-| **ALternative Flow**        | 7a. At any time only one cashbox will be in “Active” state. It means all others would be in “Inactive” or “Completed” state |
-| | At any time: |
-| | click on back arrow at top will direct the user to previous page |
+| **Alternative Flow**        | 7a. At any time only one cashbox will be in “Active” state. It means all others would be in “Inactive” or “Completed” state |
+| | At any time: click on back arrow at top will direct the user to previous page |
 | **Post Condition**          |  The user is on the detail page of cashbox |
 
 
