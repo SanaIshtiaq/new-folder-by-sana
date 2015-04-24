@@ -127,8 +127,7 @@ The main purpose of this module is to create and maintain the common expense in 
 | | 6c. User try create cashbox with name of numeric string. |
 | | At any time: |
 | | click on back arrow at top will direct the user to previous page|
-| **Post Condition**        |  The application will prompt the user for confirmation. 
-The information in the confirmation popup should be following: |
+| **Post Condition**        |  The application will prompt the user for confirmation. The information in the confirmation popup should be following: |
 | | 1.	Cashbox name |
 | | 2.	All participant with their name |
 | | 3.	Skipper name, if added otherwise the skipper label should not be displayed |
